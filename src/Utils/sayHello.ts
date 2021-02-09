@@ -1,5 +1,5 @@
 // src/Utils/sayHello.ts
-import { logger, LogMode } from '../Library/Logger';
+import { logger } from '../Library/Logger';
 import { timeout } from './timeout';
 
 /**
