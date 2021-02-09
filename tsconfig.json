@@ -7,7 +7,7 @@
 
     "baseUrl": "./src/",
     "paths": {
-      "@k-foss/ts-esutils": ["./index.ts"]
+      "@k-foss/ts-esutils/*": ["./*"]
     },
 
     // Strict Rules

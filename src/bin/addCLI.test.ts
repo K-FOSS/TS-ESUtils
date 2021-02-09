@@ -4,7 +4,7 @@ import { deepStrictEqual } from 'assert';
 import hookStd, { stdout } from 'hook-std';
 import { resolve } from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
-import { logger } from '@k-foss/ts-esutils';
+import { logger } from '@k-foss/ts-esutils/index';
 
 export class AddCLITestSuite extends TestSuite {
   public testName = 'Add CLI Test Suite';

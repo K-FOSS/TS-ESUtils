@@ -1,5 +1,5 @@
 // src/bin/add.ts
-import { logger } from '@k-foss/ts-esutils';
+import { logger } from '@k-foss/ts-esutils/index';
 
 const numbers: readonly string[] = [...process.argv];
 if (numbers.length <= 0) {
