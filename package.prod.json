@@ -16,7 +16,8 @@
     "runBin": "node --loader @k-foss/ts-esnode --experimental-modules --experimental-specifier-resolution=node --harmony-top-level-await ./dist/Utils/runScript.js"
   },
   "exports": {
-    ".": "./dist/index.js"
+    ".": "./dist/index.js",
+    "./index": "./dist/index.js"
   },
   "devDependencies": {
     "@k-foss/ts-esnode": "^2.0.2",
