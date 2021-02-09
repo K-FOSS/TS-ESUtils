@@ -5,7 +5,7 @@ COPY ./package.json ./package-lock.json ./
 
 RUN npm ci
 
-COPY ./tsconfig.build.json ./index.d.ts ./
+COPY ./tsconfig.build.json ./
 COPY ./src ./src
 
 RUN NODE_ENV=production npm run build
