@@ -1,6 +1,6 @@
+// src/bin/add.ts
 import { logger } from '../Library/Logger';
 
-// src/bin/add.ts
 const numbers: string[] = [...process.argv];
 
 if (numbers.length <= 0) {
