@@ -2,7 +2,7 @@
   "name": "@k-foss/ts-esutils",
   "version": "0.0.1",
   "description": "TS-ESUtils is a module for functions I commonly use in my programs",
-  "main": "dist/index.js",
+  "main": "dist/Utils/runScript.js",
   "type": "module",
   "private": true,
   "scripts": {
@@ -14,6 +14,9 @@
     "prettier": "prettier --config .prettierrc --check \"src/**/*ts\"",
     "lint": "eslint ./src --ext .js,.ts",
     "runBin": "node --loader @k-foss/ts-esnode --experimental-modules --experimental-specifier-resolution=node --harmony-top-level-await ./dist/Utils/runScript.js"
+  },
+  "exports": {
+    ".": "./dist/index.js"
   },
   "devDependencies": {
     "@k-foss/ts-esnode": "^2.0.2",

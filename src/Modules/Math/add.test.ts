@@ -2,8 +2,8 @@
 import { TestSuite } from '@k-foss/ts-estests';
 import { strictEqual } from 'assert';
 import { add } from './add';
-import { timeout } from '@k-foss/ts-esutils/Modules/Misc/timeout';
-import { logger } from '@k-foss/ts-esutils/Library/Logger';
+import { timeout } from '@k-foss/ts-esutils';
+import { logger } from '@k-foss/ts-esutils';
 
 export class AddTestSuite extends TestSuite {
   public testName = 'AddTest Suite';
