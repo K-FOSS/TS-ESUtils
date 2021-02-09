@@ -1,9 +1,5 @@
 // src/index.ts
-import { logger } from './Library/Logger';
-import { sayHello } from './Utils/sayHello';
-
-logger.info(`Starting TS-Core`);
-
-await sayHello('K-FOSS');
-
-export {};
+export { logger } from './Library/Logger';
+export { add } from './Utils/add';
+export { sayHello } from './Utils/sayHello';
+export { timeout } from './Utils/timeout';

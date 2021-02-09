@@ -3,7 +3,7 @@ import * as winston from 'winston';
 
 export const logger = winston.createLogger({
   level: 'debug',
-  format: winston.format.prettyPrint(),
+  format: winston.format.json(),
   defaultMeta: { service: 'user-service' },
   transports: [
     //

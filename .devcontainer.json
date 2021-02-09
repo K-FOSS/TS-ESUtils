@@ -19,7 +19,8 @@
     "source=ts-core-modules,target=/workspace/node_modules,type=volume"
   ],
   "remoteEnv": {
-    "SHELL": "/bin/bash"
+    "SHELL": "/bin/bash",
+    "LOG_MODE": "DEBUG"
   },
 
   "postCreateCommand": "sudo chown node -R node_modules && npm i"
