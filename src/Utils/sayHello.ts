@@ -9,13 +9,13 @@ import { timeout } from './timeout';
 export async function sayHello<T extends string>(
   name: T = 'John' as T,
 ): Promise<`Hello ${T}!`> {
-  logger.log(LogMode.INFO, 'Waiting 1.5 seconds then saying Hi');
+  logger.info('Waiting 1.5 seconds then saying Hi');
 
   await timeout(1500);
 
   const helloMessage = `Hello ${name}!` as const;
 
-  logger.log(LogMode.INFO, helloMessage);
+  logger.info(helloMessage);
 
   return helloMessage;
 }
