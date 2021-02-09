@@ -1,8 +1,7 @@
 // src/bin/add.ts
-import { logger } from '../Library/Logger';
+import { logger } from '@k-foss/ts-esutils/Library/Logger';
 
-const numbers: string[] = [...process.argv];
-
+const numbers: readonly string[] = [...process.argv];
 if (numbers.length <= 0) {
   throw new Error('Number params are required');
 }

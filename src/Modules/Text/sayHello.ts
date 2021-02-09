@@ -1,6 +1,6 @@
 // src/Utils/sayHello.ts
-import { logger } from '../Library/Logger';
-import { timeout } from './timeout';
+import { logger } from '../../Library/Logger';
+import { timeout } from '../Misc/timeout';
 
 /**
  * Logs a greeting for the name after a 1.5 second delay.
